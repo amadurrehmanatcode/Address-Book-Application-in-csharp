@@ -1,0 +1,7 @@
+CREATE TABLE Addresses (
+    AddressID INT IDENTITY(1,1) PRIMARY KEY,
+    FirstName NVARCHAR(50),
+    LastName NVARCHAR(50),
+    Email NVARCHAR(100),
+    PhoneNumber NVARCHAR(20)
+);
